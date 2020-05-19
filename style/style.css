@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); 
+@font-face {
+    font-family: 'Ocean Rush';
+    src: url('../fonts/OceanRushDEMO.woff2') format('woff2'),
+         url('../fonts/OceanRushDEMO.woff') format('woff'),
+         url('../fonts/OceanRushDEMO.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Sharoe';
+    src: url('../fonts/Sharoe.woff2') format('woff2'),
+         url('../fonts/Sharoe.woff') format('woff'),
+         url('../fonts/Sharoe.ttf') format('truetype');
+         font-weight: bold;
+  }
+  @font-face {
+    font-family: 'Grotters';
+    src: url('../fonts/Grotters.woff2') format('woff2'),
+         url('../fonts/Grotters.woff') format('woff'),
+         url('../fonts/Grotters.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Believe it';
+    src: 
+         url('../fonts/Believeit.woff') format('woff'),
+         url('../fonts/Believeit.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'york white letter';
+    src: url('../fonts/yorkwhiteletter.woff2') format('woff2'),
+         url('../fonts/yorkwhiteletter.woff') format('woff'),
+         url('../fonts/yorkwhiteletter.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'chasing_embers';
+    src: 
+         url('../fonts/ChasingEmbers.woff') format('woff'),
+         url('../fonts/ChasingEmbers.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'flashing';
+    src: url('../fonts/Flashing.woff2') format('woff2'),
+         url('../fonts/Flashing.woff') format('woff'),
+         url('../fonts/Flashing.ttf') format('truetype');
+  }
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.load-flashing{
+    font-family: 'flashing' ,Fallback, sans-serif !important;
+}
+.navbar-brand{
+    font-size: 2em !important;
+    color: white !important;
+    font-family: 'Ocean Rush' ,Fallback, sans-serif !important;
+}
+.navbar{
+    font-family: 'Ocean Rush' ,Fallback, sans-serif !important;
+}
+.ocean_rush{
+    font-family: 'Ocean Rush' ,Fallback, sans-serif !important;
+}
+.navbar ul li a:hover{
+    color: white !important;
+}
+.parallax{
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+#mynavbar{
+    height: 100vh;
+}
+.instagram_feed{
+    height: inherit;
+}
+.youtube-video{
+    font-size: 1.6em !important;
+    box-sizing: border-box !important;
+    border: 2px solid black !important;
+    border-radius: 0.6em !important;
+    
+    color: black;
+    
+}
+.youtube-video:hover{
+    color: white;
+    background-color: #c4302b;
+    transition: ease-in 2s;
+}
+.instagram-text{
+    font-size: 3em !important;
+    
+}
+.instagram_username{
+    font-size: 2em !important;
+    font-family: 'chasing_embers' ,Fallback, sans-serif !important;
+}
+.chasing-ember{
+    font-family: 'chasing_embers' ,Fallback, sans-serif !important;;
+}
+.instagram_biography{
+    font-family: 'chasing_embers' ,Fallback, sans-serif !important; 
+}
+.subscribe-button{
+    margin-top: 20%;
+    background: transparent;
+    margin-left: 40%;
+    padding: 0.5em;
+    box-sizing: border-box !important;
+    border: 2px solid white;
+    border-radius: 0.6em !important;
+    padding: 1.2em 2.8em;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Ocean Rush' ,Fallback, sans-serif !important;
+}
+#personal {
+    font-size: 3em;
+    opacity: .8;
+    margin: 1em;
+    font-family: 'chasing_embers' ,Fallback, sans-serif !important;
+}
+.subscribe-button:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #c4302b;
+    border: 2px solid black;   
+    transition: ease-out 2s;
+
+}
+body a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    width: 35%;
+}
+
+.fab{
+    text-decoration: none !important;
+    color: black;
+}
+.fab:hover{
+    transform: scale(1.8);
+}
+.fa-instagram:hover{
+    color: #e4405f;
+}
+.fa-facebook-f:hover{
+    color: #3b5999;
+}
+.fa-twitter:hover{
+    color: #55acee;
+}
+.fa-youtube:hover{
+    color: #c4302b;
+}
+
+.page-footer:hover  #social-media-container{
+    display: block;
+}
+.page-footer:hover{
+    height: 20vh !important;
+}
+
+.profile-image{
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+}
+
+@media only screen and (min-width: 600px) {
+    .navbar-brand{
+        font-size: 0.8em !important;
+        font-family: 'Ocean Rush' ,Fallback, sans-serif !important;
+    }   
+    .subscribe-button{
+        margin-top: 66%;
+        margin-left: 35%;
+        padding: 0.6em;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand{
+        font-size: 1em !important;
+        font-family: 'Ocean Rush' ,Fallback, sans-serif !important;
+    }   
+    .subscribe-button{
+        margin-top: 66%;
+        margin-left: 35%;
+        padding: 0.6em;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width : 1024px){
+    
+    .subscribe-button{
+        margin-top: 78%;
+        margin-left: 43%;
+        padding: 1em;
+    }
+    
+}
+/*edit this~!!!!!!!!!!!*/
+@media only screen and (min-width: 1024px) and (max-width : 1100) {
+    .subscribe-button{
+        margin-top: 48%;
+        margin-left: 45%;
+        padding: 1em;
+    }
+}
+/*
+font-family: 'Permanent Marker', cursive;
+*/
